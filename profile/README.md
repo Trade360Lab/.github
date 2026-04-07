@@ -1,61 +1,67 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Trade360Lab/Trade360Lab/main/frontend/public/demo.gif" width="220"/>
+  <img src="https://raw.githubusercontent.com/Trade360Lab/Trade360Lab/main/frontend/public/Logo.png" width="400"/>
 </p>
 
-<h1 align="center">Trade360Lab</h1>
+<h1 align="center">Trading research platform</h1>
 
 <p align="center">
-  Платформа для торговых исследований, тестирования на опыте и разработки стратегии
+  <a href="https://t360lab.tech">Главная</a> |
+  <a href="https://t360lab.tech/">Документация</a> |
+  <a href="https://t.me/trading360l">Telegram</a> |
+  <a href="https://github.com/Trade360Lab/Trade360Lab">Основной репозиторий</a>
 </p>
 
----
+<h2 align="center">Архитектура</h2>
 
-<p align="center">
-  <img src="https://github.com/Trade360Lab/Trade360Lab/actions/workflows/ci.yml/badge.svg" />
-</p>
+```mermaid
+flowchart LR
+    U[User / UI] --> F[Frontend]
 
-<p align="center">
-  <a href="https://github.com/Trade360Lab/Trade360Lab">Главная</a> |
-  <a href="https://github.com/Trade360Lab/Trade360Lab/tree/main/docs">Документация</a> |
-  <a href="https://t.me/your_channel">Telegram</a>
-</p>
+    F --> J[Java API]
 
----
+    J --> P[Python Engine]
+    J --> D[(PostgreSQL)]
 
-<h2 align="center">Про проект</h2>
+    P --> D
 
-Trade360Lab — это платформа для:
+    subgraph Backend
+        J
+        P
+        D
+    end
+```
 
-* разработки торговых стратегий
-* бэктестинга
-* анализа данных
-* визуализации результатов
+<h2 align="center">Стек технологий</h2>
 
-Система объединяет Java backend, Python engine и современный frontend.
+<table align="center">
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>CI / DevOps</b></td>
+  </tr>
 
----
-
-<h2 align="center">Технический стек</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Spring_Boot-6DB33F?logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-Backtesting-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-Frontend-000000?logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Infrastructure-2496ED?logo=docker&logoColor=white" />
-</p>
-
----
-
-<h2 align="center">Основные узлы</h2>
-
-* Backtesting Engine — слой выполнения на Python
-* Java API — оркестрация и управление запусками
-* Data Pipeline — загрузка и обработка данных
-* Strategy Layer — пользовательские стратегии
-* Visualization — графики и метрики
-
----
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Next.js-16-000000?logo=next.js&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/React-18-20232A?logo=react&logoColor=61DAFB" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Radix_UI-161618?logo=radixui&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Recharts-22C55E?logo=chartdotjs&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Spring_Boot-3-6DB33F?logo=springboot&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" /><br/>
+      <img src="https://github.com/Trade360Lab/Trade360Lab/actions/workflows/ci.yml/badge.svg" />
+    </td>
+  </tr>
+</table>
 
 <h2 align="center">Roadmap</h2>
 
@@ -66,14 +72,6 @@ Trade360Lab — это платформа для:
 * [ ] Optimization engine
 * [ ] Paper trading
 * [ ] ML / AI layer
-
----
-
-<h2 align="center">Начать</h2>
-
-<p align="center">
-  https://github.com/Trade360Lab/Trade360Lab
-</p>
 
 ---
 
