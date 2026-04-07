@@ -5,7 +5,7 @@
 <h1 align="center">Trade360Lab</h1>
 
 <p align="center">
-  Platform for trading research, backtesting and strategy development
+  Платформа для торговых исследований, тестирования на опыте и разработки стратегии
 </p>
 
 ---
