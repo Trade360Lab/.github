@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Trade360Lab/Trade360Lab/main/frontend/public/Logo.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/Trade360Lab/Trade360Lab/main/frontend/public/Logo.png" width="550"/>
 </p>
 
 <h1 align="center">Trading research platform</h1>
