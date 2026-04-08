@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://t360lab.tech">Главная</a> |
-  <a href="https://docs.t360lab.tech/">Документация</a> |
   <a href="https://t.me/trading360l">Telegram</a> |
   <a href="https://github.com/Trade360Lab/Trade360Lab">Основной репозиторий</a>
 </p>
