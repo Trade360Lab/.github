@@ -75,10 +75,10 @@ flowchart LR
 
 <table width="100%" style="font-size:12px;">
 <tr><th>Feature</th><th>Status</th></tr>
-<tr><td>~~Data pipeline~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
-<tr><td>~~Strategy contract~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
-<tr><td>~~Backtesting engine~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
-<tr><td>~~Java orchestration~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>Data pipeline</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>Strategy contract</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>Backtesting engine</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>Java orchestration</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
 <tr><td>Optimization engine</td><td><img src="https://img.shields.io/badge/status-in_progress-yellow"></td></tr>
 <tr><td>Event-driven engine</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
 </table>
