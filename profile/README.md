@@ -62,15 +62,81 @@ flowchart LR
   </tr>
 </table>
 
-<h2 align="center">Roadmap</h2>
+<h2 align="center">Roadmap of Trade360Lab</h2>
 
-* [x] Data pipeline
-* [x] Strategy contract
-* [x] Backtesting engine
-* [x] Java orchestration
-* [ ] Optimization engine
-* [ ] Paper trading
-* [ ] ML / AI layer
+<div align="center">
+
+<table width="100%">
+<tr>
+
+<td valign="top" width="50%" align="center">
+
+### Core Engine
+
+<table width="100%" style="font-size:12px;">
+<tr><th>Feature</th><th>Status</th></tr>
+<tr><td>~~Data pipeline~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>~~Strategy contract~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>~~Backtesting engine~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>~~Java orchestration~~</td><td><img src="https://img.shields.io/badge/status-done-brightgreen"></td></tr>
+<tr><td>Optimization engine</td><td><img src="https://img.shields.io/badge/status-in_progress-yellow"></td></tr>
+<tr><td>Event-driven engine</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+</table>
+
+</td>
+
+<td valign="top" width="50%" align="center">
+
+### Trading
+
+<table width="100%" style="font-size:12px;">
+<tr><th>Feature</th><th>Status</th></tr>
+<tr><td>Paper trading</td><td><img src="https://img.shields.io/badge/status-in_progress-yellow"></td></tr>
+<tr><td>Live trading</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Order management system</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Risk management</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Position sizing</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td valign="top" align="center">
+
+### ML / AI
+
+<table width="100%" style="font-size:12px;">
+<tr><th>Feature</th><th>Status</th></tr>
+<tr><td>Feature engineering</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Model training</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Online inference</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Meta-labeling</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Reinforcement learning</td><td><img src="https://img.shields.io/badge/status-future-lightgrey"></td></tr>
+</table>
+
+</td>
+
+<td valign="top" align="center">
+
+### Analytics
+
+<table width="100%" style="font-size:12px;">
+<tr><th>Feature</th><th>Status</th></tr>
+<tr><td>Equity curve</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Metrics (Sharpe, Sortino)</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Drawdown analysis</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+<tr><td>Trade logs</td><td><img src="https://img.shields.io/badge/status-planned-blue"></td></tr>
+</table>
+
+</td>
+
+</tr>
+</table>
+
+</div>
 
 ---
 
