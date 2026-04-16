@@ -2,12 +2,18 @@
   <img src="https://raw.githubusercontent.com/Trade360Lab/Trade360Lab/main/frontend/public/Logo.png" width="550"/>
 </p>
 
-<h1 align="center">Trading research platform</h1>
+<h1 align="center">Quantitative trading lab for building and testing strategies</h1>
 
 <p align="center">
   <a href="https://t360lab.tech">Главная</a> |
   <a href="https://t.me/trading360l">Telegram</a> |
   <a href="https://github.com/Trade360Lab/Trade360Lab">Основной репозиторий</a>
+</p>
+
+<h2 align="center">Почему Trade360Lab?</h2>
+
+<p align="center">
+Модульная архитектура · Разделение стратегии /исполнения / инфраструктуры · Воспроизводимый поиск 
 </p>
 
 <h2 align="center">Архитектура</h2>
