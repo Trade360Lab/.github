@@ -6,8 +6,16 @@
 
 <p align="center">
   <a href="https://t360lab.tech">Главная</a> |
-  <a href="https://t.me/trading360l">Telegram</a> |
-  <a href="https://github.com/Trade360Lab/Trade360Lab">Основной репозиторий</a>
+  <a href="https://t.me/trading360l">Telegram</a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Trade360Lab/Trade360Lab">Основной репозиторий</a> |
+<a href="https://github.com/Trade360Lab/Trade360Lab-Strategies.git">Стратегии и индикаторы</a>
+</p>
+
+<p align="center">
+
 </p>
 
 <h2 align="center">Почему Trade360Lab?</h2>
@@ -15,26 +23,6 @@
 <p align="center">
 Модульная архитектура · Разделение стратегии /исполнения / инфраструктуры · Воспроизводимый поиск 
 </p>
-
-<h2 align="center">Архитектура</h2>
-
-```mermaid
-flowchart LR
-    U[User / UI] --> F[Frontend]
-
-    F --> J[Java API]
-
-    J --> P[Python Engine]
-    J --> D[(PostgreSQL)]
-
-    P --> D
-
-    subgraph Backend
-        J
-        P
-        D
-    end
-```
 
 <h2 align="center">Стек технологий</h2>
 
