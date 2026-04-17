@@ -18,11 +18,24 @@
 
 </p>
 
-<h2 align="center">Почему Trade360Lab?</h2>
+```mermaid
+flowchart LR
+    A["Trade360Lab<br/>Quantitative Trading Lab"]
 
-<p align="center">
-Модульная архитектура · Разделение стратегии /исполнения / инфраструктуры · Воспроизводимый поиск 
-</p>
+    A --> B["Landing<br/>Website"]
+    A --> C["GitHub<br/>Organization"]
+
+    C --> D["Main Repo<br/>Trade360Lab"]
+    C --> E["Strategies Repo<br/>Trade360Lab-Strategies"]
+    C --> F["Bots / Analyzers"]
+
+    F --> G["BTC Analyzer Bot"]
+    F --> H["Other Bots"]
+    F --> I["Future Bots"]
+
+    D --> J["Platform Core"]
+    E --> K["Strategies & Indicators"]
+```
 
 <h2 align="center">Стек технологий</h2>
 
